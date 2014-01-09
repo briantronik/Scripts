@@ -7,7 +7,6 @@ using Server.Mobiles;
 using Server.Network;
 using Server.Spells;
 
-
 namespace Server.Items
 {
 	public class PublicMoongate : Item
