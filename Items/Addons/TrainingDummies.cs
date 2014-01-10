@@ -40,7 +40,7 @@ namespace Server.Items
 		public TrainingDummy( int itemID ) : base( itemID )
 		{
 			m_MinSkill = -25.0;
-			m_MaxSkill = +25.0;
+			m_MaxSkill = +80.0;
 		}
 
 		public void UpdateItemID()
@@ -130,10 +130,10 @@ namespace Server.Items
 					m_MinSkill = reader.ReadDouble();
 					m_MaxSkill = reader.ReadDouble();
 
-					if ( m_MinSkill == 0.0 && m_MaxSkill == 30.0 )
+					if ( m_MinSkill == 0.0 && m_MaxSkill == 80.0 )
 					{
 						m_MinSkill = -25.0;
-						m_MaxSkill = +25.0;
+						m_MaxSkill = +80.0;
 					}
 
 					break;

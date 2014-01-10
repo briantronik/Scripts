@@ -25,9 +25,9 @@ namespace Server.Mobiles
 				if ( Core.AOS )
 					Add( new GenericBuyInfo( typeof( NecromancerSpellbook ), 115, 10, 0x2253, 0 ) );
 				
-				Add( new GenericBuyInfo( typeof( ScribesPen ), 8, 10, 0xFBF, 0 ) );
+				Add( new GenericBuyInfo( typeof( ScribesPen ), 8, 30, 0xFBF, 0 ) );
 
-				Add( new GenericBuyInfo( typeof( BlankScroll ), 5, 20, 0x0E34, 0 ) );
+				Add( new GenericBuyInfo( typeof( BlankScroll ), 5, 200, 0x0E34, 0 ) );
 
 				Add( new GenericBuyInfo( "1041072", typeof( MagicWizardsHat ), 11, 10, 0x1718, Utility.RandomDyedHue() ) );
 
@@ -42,22 +42,22 @@ namespace Server.Mobiles
  				Add( new GenericBuyInfo( typeof( LesserCurePotion ), 15, 10, 0xF07, 0 ) );
 				Add( new GenericBuyInfo( typeof( LesserExplosionPotion ), 21, 10, 0xF0D, 0 ) );
 
-				Add( new GenericBuyInfo( typeof( BlackPearl ), 5, 20, 0xF7A, 0 ) );
-				Add( new GenericBuyInfo( typeof( Bloodmoss ), 5, 20, 0xF7B, 0 ) );
-				Add( new GenericBuyInfo( typeof( Garlic ), 3, 20, 0xF84, 0 ) );
-				Add( new GenericBuyInfo( typeof( Ginseng ), 3, 20, 0xF85, 0 ) );
-				Add( new GenericBuyInfo( typeof( MandrakeRoot ), 3, 20, 0xF86, 0 ) );
-				Add( new GenericBuyInfo( typeof( Nightshade ), 3, 20, 0xF88, 0 ) );
-				Add( new GenericBuyInfo( typeof( SpidersSilk ), 3, 20, 0xF8D, 0 ) );
-				Add( new GenericBuyInfo( typeof( SulfurousAsh ), 3, 20, 0xF8C, 0 ) );
+				Add( new GenericBuyInfo( typeof( BlackPearl ), 5, 200, 0xF7A, 0 ) );
+				Add( new GenericBuyInfo( typeof( Bloodmoss ), 5, 200, 0xF7B, 0 ) );
+				Add( new GenericBuyInfo( typeof( Garlic ), 3, 200, 0xF84, 0 ) );
+				Add( new GenericBuyInfo( typeof( Ginseng ), 3, 200, 0xF85, 0 ) );
+				Add( new GenericBuyInfo( typeof( MandrakeRoot ), 3, 200, 0xF86, 0 ) );
+				Add( new GenericBuyInfo( typeof( Nightshade ), 3, 200, 0xF88, 0 ) );
+				Add( new GenericBuyInfo( typeof( SpidersSilk ), 3, 200, 0xF8D, 0 ) );
+				Add( new GenericBuyInfo( typeof( SulfurousAsh ), 3, 200, 0xF8C, 0 ) );
 
 				if ( Core.AOS )
 				{
-					Add( new GenericBuyInfo( typeof( BatWing ), 3, 999, 0xF78, 0 ) );
-					Add( new GenericBuyInfo( typeof( DaemonBlood ), 6, 999, 0xF7D, 0 ) );
-					Add( new GenericBuyInfo( typeof( PigIron ), 5, 999, 0xF8A, 0 ) );
-					Add( new GenericBuyInfo( typeof( NoxCrystal ), 6, 999, 0xF8E, 0 ) );
-					Add( new GenericBuyInfo( typeof( GraveDust ), 3, 999, 0xF8F, 0 ) );
+					Add( new GenericBuyInfo( typeof( BatWing ), 3, 200, 0xF78, 0 ) );
+					Add( new GenericBuyInfo( typeof( DaemonBlood ), 6, 200, 0xF7D, 0 ) );
+					Add( new GenericBuyInfo( typeof( PigIron ), 5, 200, 0xF8A, 0 ) );
+					Add( new GenericBuyInfo( typeof( NoxCrystal ), 6, 200, 0xF8E, 0 ) );
+					Add( new GenericBuyInfo( typeof( GraveDust ), 3, 200, 0xF8F, 0 ) );
 				}
 
 				Type[] types = Loot.RegularScrollTypes;
